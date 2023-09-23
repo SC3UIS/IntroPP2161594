@@ -20,9 +20,9 @@ En este taller, nos enfocaremos en un aspecto práctico de la sucesión de Fibon
 
 # Conclusiones
 
-* Mejora de rendimiento: La solución paralela debería ejecutarse más rápido que la secuencial, especialmente cuando el valor de N es grande. Esto demuestra cómo la programación paralela puede aprovechar eficazmente los recursos de procesamiento disponibles para acelerar la ejecución de tareas computacionalmente intensivas.
+* Rendimiento: De acuerdo a la teoría y las pruebas se puede concluir que la solución paralela toma la delantera, especialmente cuando se cuenta con un valor N grande. Esto se debe al aprovechamiento eficaz de los recusrsos de procesamiento disponibles para el aceleramiento de la ejcución de tareas.
 
-* Escalabilidad: Observarás que la diferencia en el tiempo de ejecución entre la solución secuencial y la paralela es más notable a medida que aumentas el valor de N. Esto ilustra la importancia de la escalabilidad en la programación paralela. A medida que los problemas se vuelven más grandes, la programación paralela se convierte en una herramienta valiosa para reducir el tiempo de procesamiento.
+* Escalabilidad: Se puede observar una clara diferencia en el tiempo de ejución, en especial una vez más en el momento en el que N se hace más grande, ya que en situaciones así la respuesta paralela y su alta escalabilidad se convierten en una clara opción para la reducción de tiempo de procesamiento.
 
 * Overhead de paralelismo: Aunque la solución paralela ofrece mejoras en el rendimiento, también puede introducir un cierto grado de overhead debido a la gestión de hilos y la coordinación entre ellos. Esto significa que para problemas pequeños o cálculos simples, la solución secuencial podría ser más eficiente debido al costo adicional asociado con el paralelismo.
 
