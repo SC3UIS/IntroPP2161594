@@ -25,6 +25,8 @@ En este taller, nos enfocaremos en un aspecto práctico de la sucesión de Fibon
 ![image](https://github.com/Maxito06/IntroPP2161594/assets/117324114/394f8a6d-580c-45aa-b0fe-d0912cad3e66)
 
 2) Solución Paralela
+   
+![image](https://github.com/Maxito06/IntroPP2161594/assets/117324114/db93aac2-476a-4193-b098-0627ed68bb69)
 
 
 # Conclusiones
