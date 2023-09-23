@@ -1,8 +1,8 @@
-# taller 1 Evaluación Curso de Introducción al Procesamiento en Paralelo 
+# Taller 1 Evaluación Curso de Introducción al Procesamiento en Paralelo 
 
 Maximiliano Correa Pico - 2161594
 
-# introducción 
+# Introducción 
 
 La sucesión de Fibonacci es un concepto fundamental en matemáticas que ha inspirado una variedad de aplicaciones y representaciones visuales en el mundo de la geometría y la programación. Esta sucesión, que comienza con los números 0 y 1, se caracteriza por su propiedad única en la que cada término es la suma de los dos anteriores. Esta relación de recurrencia da lugar a una secuencia infinita de números naturales: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 y así sucesivamente.
 
