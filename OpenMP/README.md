@@ -8,5 +8,11 @@ La sucesión de Fibonacci es un concepto fundamental en matemáticas que ha insp
 
 En este taller, nos enfocaremos en un aspecto práctico de la sucesión de Fibonacci. Proponemos la creación de un programa en lenguaje C que calcule la suma de los números de Fibonacci en índices pares de hasta N términos de la sucesión. Para abordar este desafío, proporcionaremos dos soluciones: una solución secuencial y otra solución paralela utilizando OpenMP (Open Multi-Processing). Esta última permitirá aprovechar al máximo los recursos de procesamiento disponibles y acelerar el cálculo de la suma de manera eficiente.
 
+# Implementación
+
+1) Solución Secuencial.
+
 ![image](https://github.com/Maxito06/IntroPP2161594/assets/117324114/51d4f020-3102-413a-a535-45b4ed874482)
+
+2) Solución Paralela con OMP.
 
