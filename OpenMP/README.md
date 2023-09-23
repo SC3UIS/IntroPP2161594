@@ -24,12 +24,10 @@ En este taller, nos enfocaremos en un aspecto práctico de la sucesión de Fibon
 
 * Escalabilidad: Se puede observar una clara diferencia en el tiempo de ejución, en especial una vez más en el momento en el que N se hace más grande, ya que en situaciones así la respuesta paralela y su alta escalabilidad se convierten en una clara opción para la reducción de tiempo de procesamiento.
 
-* Overhead de paralelismo: Aunque la solución paralela ofrece mejoras en el rendimiento, también puede introducir un cierto grado de overhead debido a la gestión de hilos y la coordinación entre ellos. Esto significa que para problemas pequeños o cálculos simples, la solución secuencial podría ser más eficiente debido al costo adicional asociado con el paralelismo.
+* Consistencia de resultados: Es importante verificar que ambas soluciones (secuencial y paralela) produzcan resultados consistentes. En este caso y por fortuna para el desarrollo del taller hubo cosistencia de resultados.
 
-* Consistencia de resultados: Es importante verificar que ambas versiones (secuencial y paralela) produzcan resultados consistentes. Si los resultados son consistentes, esto sugiere que la implementación paralela es correcta y que no se han introducido errores en el proceso de paralelización.
+* Uso de recursos: Claramente y como se mencionó anteriormente el plus de la solución paralela se debe al mayor utilizamiento de recursos del sistemas como lo son: CPU y memoria, esto puede afectar cuando se cuenta con herramientas de recursos limitados, por eso lo ideal es lograr un equilibrio entre rendimiento y uso de recursos adicionales.
 
-* Uso de recursos: La solución paralela utilizará más recursos del sistema, como CPU y memoria, en comparación con la versión secuencial. Esto es especialmente relevante en sistemas con recursos limitados, y es importante considerar el equilibrio entre el rendimiento mejorado y el uso de recursos adicionales.
-
-* Optimización y paralelización selectiva: La práctica también destaca la importancia de identificar las partes críticas del código que se beneficiarán más de la paralelización. No todos los problemas son adecuados para la programación paralela, y es fundamental seleccionar las secciones del código que justifiquen la introducción de paralelismo.
+* Optimización y paralelización: Es importante destacar que esta práctica nos permite notar y entender que no todos los problemas serán adecuados para implementar una solución paralela y será prudente elegir cuando verdaderamente se necesite.
 
 
