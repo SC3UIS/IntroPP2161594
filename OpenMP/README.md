@@ -16,3 +16,6 @@ En este taller, nos enfocaremos en un aspecto práctico de la sucesión de Fibon
 
 2) Solución Paralela con OMP.
 
+![image](https://github.com/Maxito06/IntroPP2161594/assets/117324114/0ddec32a-3898-47c9-8c9a-ae96bf283d7b)
+
+
