@@ -18,6 +18,15 @@ En este taller, nos enfocaremos en un aspecto práctico de la sucesión de Fibon
 
 ![image](https://github.com/Maxito06/IntroPP2161594/assets/117324114/0ddec32a-3898-47c9-8c9a-ae96bf283d7b)
 
+# Tiempo de ejecución 
+
+1) Solución Secuencial
+   
+![image](https://github.com/Maxito06/IntroPP2161594/assets/117324114/394f8a6d-580c-45aa-b0fe-d0912cad3e66)
+
+2) Solución Paralela
+
+
 # Conclusiones
 
 * Rendimiento: De acuerdo a la teoría y las pruebas se puede concluir que la solución paralela toma la delantera, especialmente cuando se cuenta con un valor N grande. Esto se debe al aprovechamiento eficaz de los recusrsos de procesamiento disponibles para el aceleramiento de la ejcución de tareas.
