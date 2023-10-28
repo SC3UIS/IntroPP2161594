@@ -18,7 +18,7 @@ En el repositorio podemos encontrar varios archivos y son los siguientes:
 
 RECORDAR QUE EL CÓDIGO PRINCIPAL ES `main.c`
 
-## CÓDIGO MAIN
+## Código main
 
 El archivo "main.c" contiene la función principal que controla la simulación del solucionador de la ecuación de calor en 2D. Comienza definiendo variables esenciales, como la constante de difusión, campos para la temperatura actual y previa, pasos de tiempo, intervalos de salida y la información de paralelización MPI. Luego, inicializa el entorno MPI y configura los campos de temperatura iniciales. Durante la simulación, calcula pasos de tiempo, realiza iteraciones para actualizar la temperatura en el dominio y gestiona la salida de imágenes y puntos de control. Finalmente, calcula el tiempo de ejecución, muestra resultados y libera la memoria utilizada antes de cerrar MPI. Este archivo abarca la lógica central para la simulación de la ecuación de calor 2D, incluyendo paralelización, campos de temperatura y generación de resultados visuales.
 
@@ -35,7 +35,7 @@ Por último para copilar se ejecuta: make
 ## Trabajo
 Teniendo claro los conceptos y lineas de código anteriores se realizará el trabajo el cual está dividido en dos partes una primera que será una ejecución en modo interactivo, la segunda parte será en modo pasivo.
 
-### Modo Ejecución Interactivo
+### Modo ejecución interactivo
 para esta ejecución se tomarán los siguientes comandos:
 * mpirun -np X ./heat_mpi  --> valores predeterminados
 * mpirun -np X ./heat_mpi botella.dat --> desde un campo inicial en este caso botella.dat
@@ -44,7 +44,7 @@ para esta ejecución se tomarán los siguientes comandos:
 
 en mi caso x tomará el valor de 4
 
-### Modo Ejecución Pasiva
+### Modo ejecución pasiva
 
 * Es necesario crear un archivo de scrip ejecutable.sh :
     
