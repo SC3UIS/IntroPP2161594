@@ -35,7 +35,7 @@ Por último para copilar se ejecuta: make
 ## Trabajo
 Teniendo claro los conceptos y lineas de código anteriores se realizará el trabajo el cual está dividido en dos partes una primera que será una ejecución en modo interactivo, la segunda parte será en modo pasivo.
 
-### Modo Interactivo
+### Modo Ejecución Interactivo
 para esta ejecución se tomarán los siguientes comandos:
 * mpirun -np X ./heat_mpi  --> valores predeterminados
 * mpirun -np X ./heat_mpi botella.dat --> desde un campo inicial en este caso botella.dat
@@ -43,6 +43,28 @@ para esta ejecución se tomarán los siguientes comandos:
 * mpirun -np X ./heat_mpi 800 800 1000 --> acá se agregan dimensiones A, H (800,8000) y pasos de tiempo (1000)
 
 en mi caso x tomará el valor de 4
+
+### Modo Ejecución Pasiva
+
+* Es necesario crear un archivo de scrip ejecutable.sh :
+    
+![ejecutable](https://github.com/SC3UIS/IntroPP2161594/assets/117324114/1b9312dc-005c-4cd6-a6d9-5ad1ed9bb06a)
+
+y en consola se ejecuta con: sbatch ejecutable.sh
+
+## Resultados
+
+* Prueba 1 
+![imagen_1](https://github.com/SC3UIS/IntroPP2161594/assets/117324114/ad4ac99f-ed5c-45a6-93d1-963988a40d97)
+
+* Prueba 2
+![imagen_2](https://github.com/SC3UIS/IntroPP2161594/assets/117324114/d9c85b75-f2d0-4674-806b-bcd31f122eb4)
+
+* Prueba 3
+![imagen_3](https://github.com/SC3UIS/IntroPP2161594/assets/117324114/abebe765-069d-4a40-b78a-0d7657306ccb)
+
+* Prueba 4
+![imagen_4](https://github.com/SC3UIS/IntroPP2161594/assets/117324114/0e5d4c52-4c62-4db3-9d0b-dfadfc12e170)
 
 
 
