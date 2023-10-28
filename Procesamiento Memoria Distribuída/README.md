@@ -14,7 +14,25 @@ En el repositorio podemos encontrar varios archivos y son los siguientes:
 - `main.c`: Tiene la lógica principal para la simulación del solucionador de la ecuación de calor en 2D, incluyendo la paralelización MPI, la administración de campos de temperatura y la generación de salidas visuales.
 - `pngwriter.c` y `pngwriter.h`: este código está diseñado para tomar un conjunto de datos bidimensionales que representan temperaturas y convertirlos en una imagen PNG.
 - `setup.c`: es esencial para la inicialización y configuración de la simulación del solucionador de la ecuación de calor, incluyendo la generación de datos iniciales, la gestión de la comunicación entre procesadores y la definición de las dimensiones del campo de temperatura.
-- `utilities.c`: son esenciales para la gestión de memoria y la manipulación de campos de temperatura en el solucionador de la ecuación de calor,.
+- `utilities.c`: son esenciales para la gestión de memoria y la manipulación de campos de temperatura en el solucionador de la ecuación de calor.
+
+RECORDAR QUE EL CÓDIGO PRINCIPAL ES `main.c`
+
+## CÓDIGO MAIN
+
+El archivo "main.c" contiene la función principal que controla la simulación del solucionador de la ecuación de calor en 2D. Comienza definiendo variables esenciales, como la constante de difusión, campos para la temperatura actual y previa, pasos de tiempo, intervalos de salida y la información de paralelización MPI. Luego, inicializa el entorno MPI y configura los campos de temperatura iniciales. Durante la simulación, calcula pasos de tiempo, realiza iteraciones para actualizar la temperatura en el dominio y gestiona la salida de imágenes y puntos de control. Finalmente, calcula el tiempo de ejecución, muestra resultados y libera la memoria utilizada antes de cerrar MPI. Este archivo abarca la lógica central para la simulación de la ecuación de calor 2D, incluyendo paralelización, campos de temperatura y generación de resultados visuales.
+
+## Información hacerca del entorno
+### Entrar 
+Para poder entrar en necesario la siguiente linea: srun -n 24 --pty /bin/bash
+### Cargar Módulos
+La carga de los modulos se realiza mediante: module load devtools/mpi/openmpi/3.1.4
+### Limpiar
+Previamente a la ejecución es necesario realizar una limpieza para esto usamos: make clean
+### Copilar
+Por último para copilar se ejecuta: make
+
+
 
 
 
