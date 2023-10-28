@@ -54,16 +54,20 @@ y en consola se ejecuta con: sbatch ejecutable.sh
 
 ## Resultados
 
-* Prueba 1 
+* Prueba 1:
+  
 ![imagen_1](https://github.com/SC3UIS/IntroPP2161594/assets/117324114/ad4ac99f-ed5c-45a6-93d1-963988a40d97)
 
-* Prueba 2
+* Prueba 2:
+  
 ![imagen_2](https://github.com/SC3UIS/IntroPP2161594/assets/117324114/d9c85b75-f2d0-4674-806b-bcd31f122eb4)
 
-* Prueba 3
+* Prueba 3:
+  
 ![imagen_3](https://github.com/SC3UIS/IntroPP2161594/assets/117324114/abebe765-069d-4a40-b78a-0d7657306ccb)
 
-* Prueba 4
+* Prueba 4:
+  
 ![imagen_4](https://github.com/SC3UIS/IntroPP2161594/assets/117324114/0e5d4c52-4c62-4db3-9d0b-dfadfc12e170)
 
 
