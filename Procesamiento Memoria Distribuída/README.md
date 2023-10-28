@@ -32,6 +32,16 @@ Previamente a la ejecución es necesario realizar una limpieza para esto usamos:
 ### Copilar
 Por último para copilar se ejecuta: make
 
+## Trabajo
+Teniendo claro los conceptos y lineas de código anteriores se realizará el trabajo el cual está dividido en dos partes una primera que será una ejecución en modo interactivo, la segunda parte será en modo pasivo.
+
+### Modo Interactivo
+para esta ejecución se tomarán los siguientes comandos:
+* mpirun -np X ./heat_mpi  --> valores predeterminados
+* mpirun -np X ./heat_mpi botella.dat --> desde un campo inicial en este caso botella.dat
+* mpirun -np X ./heat_mpi botella.dat 1000 --> igual que el anterior pero agregando pasos de tiempo (1000)
+* mpirun -np X ./heat_mpi 800 800 1000 --> acá se agregan dimensiones A, H (800,8000) y pasos de tiempo (1000)
+en mi caso x tomará el valor de 4
 
 
 
